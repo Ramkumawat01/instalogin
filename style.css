@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: #fafafa;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+section
+{
+    width: 350px;
+    height: 385px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    margin-top:30px;
+}
+
+section span img
+{
+    width: 170px;
+    display: block;
+    margin: 36px auto;
+}
+
+section form
+{
+    width: 350px;
+    height: 200px;
+}
+
+section form input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px auto;
+    width: 80%;
+    height: 40px;
+    border: 1px solid #d3d3d3;
+    outline: none;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+section form input:focus
+{
+    border: 1px solid #777;
+}
+
+section form input[type="submit"]
+{
+    background: #0095f6;
+    padding: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    height: 30px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+::placeholder
+{
+    font-size: 12px;
+    color: gray;
+}
+
+
+section .hr-line 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -45px;
+}
+
+section .hr-line div
+{
+    border: 1px solid transparent;
+    background: #d3d3d3;
+    width: 33%;
+    height: 0.1px;
+}
+
+section .hr-line span
+{
+    margin: -1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+
+section .fcbk
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}
+
+section .fcbk a
+{
+    text-decoration: none;
+    color: #44159f;
+}
+
+section .fcbk img
+
+{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    left: -5px;
+}
+
+section a.forgot
+{
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    left: 0;
+}
+
+.sign-up
+{
+    border: 1px solid #d3d3d3;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    margin: 10px;
+    background: #fff;
+    padding: 23px;
+    font-size: 14px;
+}
+
+.sign-up a
+{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.app
+{
+    display: grid;
+    place-items: center;
+    padding-top: 20px;
+}
+
+.app p
+{
+    font-size: 13px;
+}
+
+.app img
+{
+    width: 140px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.faq
+{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.faq a
+{
+    text-decoration: none;
+    margin: 8px;
+    color: #777;
+    font-size: 12px;
+}
